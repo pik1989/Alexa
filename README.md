@@ -1,6 +1,6 @@
 # Build your own Alexa in just 30 minutes
 
-🔴 In this repository, we have implemented the code for building our own Alexa, for step by step guide, please refer:
+🔴 Follow this video for the code walkthrough:
 
-[![Alt text](https://raw.githubusercontent.com/pik1989/MLProject-Churn-Analysis-And-Prediction-Model/main/images/CC.JPG)](https://www.youtube.com/watch?v=GVECbcKUio4)
+[![Alt text](https://raw.githubusercontent.com/pik1989/MLProject-Churn-Analysis-And-Prediction-Model/main/images/CC.JPG)](https://youtu.be/LiIhKYtbJ0Q)
 
