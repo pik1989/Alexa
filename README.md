@@ -2,5 +2,5 @@
 
 🔴 Follow this video for the code walkthrough:
 
-[![Alt text](https://raw.githubusercontent.com/pik1989/MLProject-Churn-Analysis-And-Prediction-Model/main/images/CC.JPG)](https://youtu.be/LiIhKYtbJ0Q)
+[![Alt text](https://raw.githubusercontent.com/pik1989/MLProject-Churn-Analysis-And-Prediction-Model/main/images/CC.JPG)](https://www.youtube.com/watch?v=fXRbnSWJVJY)
 
