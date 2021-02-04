@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+		  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" >// <![CDATA[ 
+        function loading(){
+            $("#loading").show();
+            $("#content").hide();       
+        }
+// ]]></script>
+	<title>Dog Cat Classification</title>
+	
+	<style>
+		
+    
+ .heading { color: #FFFFFF;}  
+
+.page th {
+  
+    background-color: #add8e6;
+    color: white;
+}
+body {
+
+    padding:0px;
+    margin:20px;
+    background:url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg") ;
+    background-size:auto;
+    width:100vw;
+    height:100vh;
+    
+   
+}
+div#loading {
+ 
+    width: 1700px;
+    height: 35px;
+    display: none;
+    background: url('{{ url_for('static', filename='loading_bar.gif' ) }}') no-repeat;
+    cursor: wait;
+    
+  }
+
+</style>
+</head>
+<body>
+  <div>
+	<h1 class="heading">Upload photo</h1>
+
+	<form method="POST" action="/submit" enctype="multipart/form-data">
+	
+	
+	<input type="submit" class="btn btn-primary" onclick="loading();">
+	</form>
+	<br>
+	<div id="loading" ><br>
+  <p class="heading"> Please wait </p></div>
+<br>
+
+</body>
+
+</html>
