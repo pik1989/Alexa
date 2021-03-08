@@ -25,7 +25,7 @@ def engine_talk(text):
     
 def weather(city):
     # Enter your API key here 
-    api_key = "2f192ed601337bc46cf188b08f6e189e"
+    api_key = "<YOUR API KEY"
     
     # base_url variable to store url 
     base_url = "http://api.openweathermap.org/data/2.5/weather?"
